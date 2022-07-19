@@ -1,0 +1,62 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------header section style start*/
+
+
+.header-banner {
+    display: flex;
+    background-color: #161616;
+    width: 950px;
+    height: 440px;
+    margin-left: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
+
+.header-title {
+    width: 50%;
+    color: #fff;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+
+.header-title {
+    font-size: 20px;
+}
+
+.header-title p {
+    font-size: 17px;
+
+}
+
+.header-picture {
+    width: 50%;
+    margin-top: 100px;
+}
+
+.header-picture img {
+    width: 70%;
+    margin-left: 100px;
+}
+
+.button-style {
+    padding: 10px 25px;
+    background-color: #DD0000;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.button-style .fa-solid {
+    margin-left: 10px;
+}
+
+
+/* -------header section style end*/
