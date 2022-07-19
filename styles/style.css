@@ -72,7 +72,7 @@ body {
 .match-container {
     background-color: white;
     margin: 100px;
-    border: 1px solid red;
+
 }
 
 .match-item {
@@ -160,3 +160,28 @@ body {
 }
 
 /* -------------------match section end -----------*/
+/* -----------footer section--------------- */
+.footer-section {
+    background: #000;
+    margin: 100px;
+}
+
+
+.footer {
+    padding: 100px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer-menu {
+    color: #ffff;
+    margin-top: 50px;
+}
+
+.footer-menu a {
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0 20px;
+    color: #c29e9e;
+}
