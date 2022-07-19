@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
 
     margin: 0;
@@ -6,15 +11,15 @@ body {
 }
 
 /* -------header section style start*/
-
+.header-section {
+    margin: 100px;
+}
 
 .header-banner {
     display: flex;
     background-color: #161616;
-    width: 950px;
+    width: 100%;
     height: 440px;
-    margin-left: 200px;
-    margin-top: 50px;
     border-radius: 20px;
 
 }
@@ -22,7 +27,7 @@ body {
 .header-title {
     width: 50%;
     color: #fff;
-    margin-top: 40px;
+    margin-top: 90px;
     padding-left: 30px;
 }
 
@@ -36,8 +41,10 @@ body {
 }
 
 .header-picture {
+    margin-top: 27px;
     width: 50%;
-    margin-top: 100px;
+    height: 460;
+
 }
 
 .header-picture img {
@@ -46,6 +53,7 @@ body {
 }
 
 .button-style {
+    margin-top: 30px;
     padding: 10px 25px;
     background-color: #DD0000;
     color: #fff;
@@ -60,3 +68,77 @@ body {
 
 
 /* -------header section style end*/
+/* -------------------match section start -----------*/
+.match-container {
+    background-color: white;
+    margin: 100px;
+    border: 1px solid red;
+}
+
+.match-item {
+    display: flex;
+    width: 100%;
+    column-gap: 20px;
+}
+
+.match-item-one {
+    width: 25%;
+    height: 300px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+.link-item {
+    list-style: none;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.link-item li {
+    margin: 30px;
+
+}
+
+.link-style {
+    margin: 50px;
+    background: rgb(238, 220, 220);
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+
+
+}
+
+.link-style-blog {
+    background: #DD0000;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.link-item li a {
+    text-decoration: none;
+    color: black;
+}
+
+.match-item-tow {
+    width: 75%;
+}
+
+.match-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+.blog img {
+    width: 270px;
+}
+
+
+
+
+/* -------------------match section end -----------*/
