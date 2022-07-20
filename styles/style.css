@@ -160,12 +160,43 @@ body {
 }
 
 /* -------------------match section end -----------*/
+/*----------------- upcoming match style---------- */
+.upcoming {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.upcoming-images-style img {
+    width: 100%;
+
+}
+
+.vs-style {
+    margin-top: 15px;
+    margin: 10px 10px;
+}
+
+.upcoming-title {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.upcoming-time {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
 /* -----------footer section--------------- */
 .footer-section {
     background: #000;
     margin: 100px;
 }
 
+.footer h2 {
+    margin-bottom: 50px;
+}
 
 .footer {
     padding: 100px;
@@ -183,5 +214,11 @@ body {
     font-size: 12px;
     text-decoration: none;
     padding: 0 20px;
-    color: #c29e9e;
+    color: #b19d9d;
+}
+
+.fa-brands {
+    margin-top: 20px;
+    padding: 7px 12px;
+    color: aqua;
 }
