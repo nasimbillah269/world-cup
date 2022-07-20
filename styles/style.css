@@ -8,6 +8,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+
+}
+
+.view-button-style {
+    display: none;
 }
 
 /* -------header section style start*/
@@ -64,6 +69,13 @@ body {
     border: 0;
     border-radius: 5px;
 
+}
+
+.button-style:hover {
+    background-color: #b00505;
+    transition: 1s 1s ease-in;
+    color: #b8abab;
+    border-radius: 30px;
 }
 
 .button-style .fa-solid {
@@ -161,6 +173,16 @@ body {
 .fa-solid {
     padding: 0 14px;
 
+}
+
+.view-button-style {
+    padding: 10px 25px;
+    background-color: #DD0000;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* -------------------match section end -----------*/
@@ -341,5 +363,9 @@ body {
         flex-wrap: wrap;
         flex-direction: column;
 
+    }
+
+    .view-button-style {
+        display: flex;
     }
 }
